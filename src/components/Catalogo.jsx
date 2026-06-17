@@ -61,7 +61,7 @@ export default function CatalogoFardos() {
           categoria: "Invierno, Deportivo",
           peso: "50_KG",
           prendasAprox: "80 - 100 prendas",
-          imagen: "/Fardo_conocidas/fardo1.jpeg",
+          imagen: "/Fardo_conocidas/america_boutique.jpeg",
           descripcion: "Lote cerrado con ropa pesada de abrigo. Camperas inflables, parkas, buzos de frisa y sweaters seleccionados para soportar bajas temperaturas.",
           incluye: ["Camperas de abrigo", "Sweaters surtidos", "Buzos de frisa"],
           disponible: true
@@ -72,7 +72,7 @@ export default function CatalogoFardos() {
           categoria: "Invierno",
           peso: "50_KG",
           prendasAprox: "80 - 100 prendas",
-          imagen: "/Fardo_conocidas/fardo2.jpeg",
+          imagen: "/Fardo_conocidas/premium_depor_marca.jpeg",
           descripcion: "Lote cerrado de marcas conocidas. Camperas inflables, parkas, buzos de frisa y sweaters seleccionados para soportar bajas temperaturas.",
           incluye: ["Camperas de abrigo", "Sweaters surtidos", "Buzos de frisa"],
           disponible: true
