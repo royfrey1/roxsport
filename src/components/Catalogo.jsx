@@ -20,7 +20,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "50_KG",
           prendasAprox: "100 prendas",
-          imagen: "/full_nike.jpeg", // Corregido sin prefijo /public para entornos Vite/Next
+          imagen: "Fardo_premium_Nuevo_Ingreso/full_nike.jpeg", // Corregido sin prefijo /public para entornos Vite/Next
           descripcion: "Ropa nueva de retorno de primera línea. Lote seleccionado de invierno que incluye variedad de buzos, camperas y pantalones de abrigo con excelente margen comercial.",
           incluye: ["Calidad Invierno Retorno", "Buzos y Pantalones", "Camperas de abrigo"],
           disponible: true
@@ -31,7 +31,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "50_KG",
           prendasAprox: "100 prendas",
-          imagen: "/costco_invierno.jpeg", // Listo para agregar ruta cuando pases la foto 2
+          imagen: "Fardo_premium_Nuevo_Ingreso/costco_invierno.jpeg", // Listo para agregar ruta cuando pases la foto 2
           descripcion: "Indumentaria deportiva nueva de retorno de la marca líder. Lote de invierno ideal para entrenamiento y uso urbano, compuesto por buzos, camperas y pantalones.",
           incluye: ["Lote exclusivo Costco", "Prendas de Invierno", "Buzos y Pantalones"],
           disponible: true
@@ -42,7 +42,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "50_KG",
           prendasAprox: "100 prendas",
-          imagen: "/mix_kids.jpeg", // Listo para agregar ruta cuando pases la foto 3
+          imagen: "Fardo_premium_Nuevo_Ingreso/mix_kids.jpeg", // Listo para agregar ruta cuando pases la foto 3
           descripcion: "Mix de indumentaria infantil nueva de retorno (marcas Costco y Target). Ropa de abrigo ideal para la temporada invernal: buzos, camperas y pantalones para chicos.",
           incluye: ["Marcas Costco & Target", "Especial Niños (Chicos)", "Retorno de Invierno"],
           disponible: true
