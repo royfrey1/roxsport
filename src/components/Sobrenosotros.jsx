@@ -9,7 +9,7 @@ export default function SobreNosotros() {
         {/* 🛠️ BLOQUE IZQUIERDO: AJUSTADO Y CENTRADO PARA TABLETS */}
         <div className="relative aspect-square w-full max-w-[480px] bg-stone-900 rounded-xl border border-stone-850 overflow-hidden group shadow-2xl mx-auto">
           <img 
-            src="public/familiaAdrian.jpeg" 
+            src="/familiaAdrian.jpeg" 
             alt="Adrián y equipo en el galpón de Once" 
             /* 💡 Sumamos 'object-cover' y 'object-center' para que la foto llene el cuadrado sin deformarse ni tirarse a un costado */
             className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"

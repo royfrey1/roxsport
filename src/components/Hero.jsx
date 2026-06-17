@@ -43,7 +43,7 @@ export default function Hero() {
         {/* IMAGEN DE FONDO INDUSTRIAL CON OVERLAY */}
         <div className="absolute inset-0 z-0 pointer-events-none">
           <img 
-            src="/public/logoeditable.png" 
+            src="/logoeditable.png" 
             alt="Depósito textil industrial" 
             className="w-full h-full object-cover object-center opacity-50"
           />

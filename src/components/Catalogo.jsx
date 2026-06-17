@@ -20,7 +20,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "50_KG",
           prendasAprox: "100 prendas",
-          imagen: "public/Fardo_premium_Nuevo_ingreso/fardo1.jpeg", // Corregido sin prefijo /public para entornos Vite/Next
+          imagen: "/Fardo_premium_Nuevo_ingreso/fardo1.jpeg", // Corregido sin prefijo /public para entornos Vite/Next
           descripcion: "Ropa nueva de retorno de primera línea. Lote seleccionado de invierno que incluye variedad de buzos, camperas y pantalones de abrigo con excelente margen comercial.",
           incluye: ["Calidad Invierno Retorno", "Buzos y Pantalones", "Camperas de abrigo"],
           disponible: true
@@ -31,7 +31,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "50_KG",
           prendasAprox: "100 prendas",
-          imagen: "public/Fardo_premium_Nuevo_ingreso/fardo2.jpeg", // Listo para agregar ruta cuando pases la foto 2
+          imagen: "/Fardo_premium_Nuevo_ingreso/fardo2.jpeg", // Listo para agregar ruta cuando pases la foto 2
           descripcion: "Indumentaria deportiva nueva de retorno de la marca líder. Lote de invierno ideal para entrenamiento y uso urbano, compuesto por buzos, camperas y pantalones.",
           incluye: ["Lote exclusivo Costco", "Prendas de Invierno", "Buzos y Pantalones"],
           disponible: true
@@ -42,7 +42,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "50_KG",
           prendasAprox: "100 prendas",
-          imagen: "public/Fardo_premium_Nuevo_ingreso/fardo3.jpeg", // Listo para agregar ruta cuando pases la foto 3
+          imagen: "/Fardo_premium_Nuevo_ingreso/fardo3.jpeg", // Listo para agregar ruta cuando pases la foto 3
           descripcion: "Mix de indumentaria infantil nueva de retorno (marcas Costco y Target). Ropa de abrigo ideal para la temporada invernal: buzos, camperas y pantalones para chicos.",
           incluye: ["Marcas Costco & Target", "Especial Niños (Chicos)", "Retorno de Invierno"],
           disponible: true
@@ -61,7 +61,7 @@ export default function CatalogoFardos() {
           categoria: "Invierno, Deportivo",
           peso: "50_KG",
           prendasAprox: "80 - 100 prendas",
-          imagen: "public/Fardo_conocidas/fardo1.jpeg",
+          imagen: "/Fardo_conocidas/fardo1.jpeg",
           descripcion: "Lote cerrado con ropa pesada de abrigo. Camperas inflables, parkas, buzos de frisa y sweaters seleccionados para soportar bajas temperaturas.",
           incluye: ["Camperas de abrigo", "Sweaters surtidos", "Buzos de frisa"],
           disponible: true
@@ -72,7 +72,7 @@ export default function CatalogoFardos() {
           categoria: "Invierno",
           peso: "50_KG",
           prendasAprox: "80 - 100 prendas",
-          imagen: "public/Fardo_conocidas/fardo2.jpeg",
+          imagen: "/Fardo_conocidas/fardo2.jpeg",
           descripcion: "Lote cerrado de marcas conocidas. Camperas inflables, parkas, buzos de frisa y sweaters seleccionados para soportar bajas temperaturas.",
           incluye: ["Camperas de abrigo", "Sweaters surtidos", "Buzos de frisa"],
           disponible: true
@@ -91,7 +91,7 @@ export default function CatalogoFardos() {
           categoria: "Deportivo",
           peso: "45_KG",
           prendasAprox: "10 - 12 prendas",
-          imagen: "public/Stock_limitado/camperas_con_gorro.jpeg",
+          imagen: "/Stock_limitado/camperas_con_gorro.jpeg",
           descripcion: "Camperas técnicas de entrenamiento con capucha. Lote seleccionado de marcas globales en excelente estado, ideal para la temporada de frío.",
           incluye: ["Abrigos", "Camperas", "Rompevientos"],
           disponible: true
@@ -102,7 +102,7 @@ export default function CatalogoFardos() {
           categoria: "Deportivo, Invierno",
           peso: "45_KG",
           prendasAprox: "10 - 12 prendas",
-          imagen: "public/Stock_limitado/camperas_deportivas.jpeg",
+          imagen: "/Stock_limitado/camperas_deportivas.jpeg",
           descripcion: "Camperas técnicas de entrenamiento. Lote seleccionado de marcas globales en excelente estado, ideal para la temporada de frío.",
           incluye: ["Camperas", "Sweaters", "Rompevientos"],
           disponible: true
@@ -113,7 +113,7 @@ export default function CatalogoFardos() {
           categoria: "Deportivo",
           peso: "45_KG",
           prendasAprox: "10 - 12 prendas",
-          imagen: "public/Stock_limitado/chaqueta_deportiva.jpeg",
+          imagen: "/Stock_limitado/chaqueta_deportiva.jpeg",
           descripcion: "Chaquetas técnicas de entrenamiento. Lote seleccionado de marcas globales en excelente estado, ideal para la temporada de frío.",
           incluye: ["Chaquetas", "Sweaters", "Abrigos deportivos"],
           disponible: true
@@ -124,7 +124,7 @@ export default function CatalogoFardos() {
           categoria: "Deportivo, Premium",
           peso: "45_KG",
           prendasAprox: "10 - 12 prendas",
-          imagen: "public/Stock_limitado/marcas_premium_deportivo.jpeg",
+          imagen: "/Stock_limitado/marcas_premium_deportivo.jpeg",
           descripcion: "Lote seleccionado de marcas globales en excelente estado, ideal para la temporada de frío. Chaquetas técnicas de entrenamiento.",
           incluye: ["Marcas Premium", "Camperas", " Abrigos deportivos"],
           disponible: true
@@ -135,7 +135,7 @@ export default function CatalogoFardos() {
           categoria: "Todo, Deportivo, Premium, Invierno",
           peso: "45_KG",
           prendasAprox: "10 - 12 prendas",
-          imagen: "public/Stock_limitado/mixto.jpeg",
+          imagen: "/Stock_limitado/mixto.jpeg",
           descripcion: "Lote variado de marcas globales mixtas en excelente estado, diferentes temporadas y modelos.",
           incluye: ["Varias Marcas", "Diferentes Modelos", "Variedades de Abrigos deportivos"],
           disponible: true
@@ -146,7 +146,7 @@ export default function CatalogoFardos() {
           categoria: "Deportivo",
           peso: "45_KG",
           prendasAprox: "50 - 60 prendas",
-          imagen: "public/Stock_limitado/mixto_deportivo_2da.jpeg",
+          imagen: "/Stock_limitado/mixto_deportivo_2da.jpeg",
           descripcion: "Lote variado de marcas globales mixtas en excelente estado, diferentes temporadas y modelos. Ropa deportiva de segunda selección con pequeños detalles estéticos pero sin comprometer la funcionalidad ni el rendimiento.",
           incluye: ["Varias Marcas", "Diferentes Modelos", "Prendas de Segunda Selección"],
           disponible: true
@@ -157,7 +157,7 @@ export default function CatalogoFardos() {
           categoria: "Deportivo",
           peso: "45_KG",
           prendasAprox: "50 - 60 prendas",
-          imagen: "public/Stock_limitado/pantalonbuzo.jpeg",
+          imagen: "/Stock_limitado/pantalonbuzo.jpeg",
           descripcion: "Pantalones de buzo deportivos. Lote seleccionado de marcas globales en excelente estado, ideal para la temporada de frío. Pantalones de entrenamiento y uso urbano.",
           incluye: ["Pantalones Buzo", "Marcas conocidas", "Pantalones de entrenamiento"],
           disponible: true
@@ -168,7 +168,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "45_KG",
           prendasAprox: "50 - 60 prendas",
-          imagen: "public/Stock_limitado/pantalones_jean.jpeg",
+          imagen: "/Stock_limitado/pantalones_jean.jpeg",
           descripcion: "Pantalones jean de marcas reconocidas. Lote seleccionado de marcas globales en excelente estado, ideal para el uso urbano en cualquier temporada. Pantalones de uso urbano con excelente margen comercial.",
           incluye: ["Pantalones Jean", "Usos Urbanos", "Marcas reconocidas", "Variedad de talles"],
           disponible: true
@@ -179,7 +179,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "45_KG",
           prendasAprox: "50 - 60 prendas",
-          imagen: "public/Stock_limitado/shein.jpeg",
+          imagen: "/Stock_limitado/shein.jpeg",
           descripcion: "Fardo mixto de la marca Shein. Lote solo de prendas de la marca Shein, con variedad de modelos y estilos. Ropa de uso urbano con excelente margen comercial.",
           incluye: ["Fardo Shein", "Varios modelos", "Urbano y Deportivo", "Variedad de talles"],
           disponible: true
@@ -190,7 +190,7 @@ export default function CatalogoFardos() {
           categoria: "Premium",
           peso: "45_KG",
           prendasAprox: "50 - 60 pares",
-          imagen: "public/Stock_limitado/zapatillas_varios_talles.jpeg",
+          imagen: "/Stock_limitado/zapatillas_varios_talles.jpeg",
           descripcion: "Fardo mixto de zapatillas de marcas reconocidas. Lote solo de zapatillas, con variedad de modelos y estilos. Calzado deportivo y urbano con excelente margen comercial.",
           incluye: ["Varias Marcas", "Varios modelos", "Urbano y Deportivo", "Variedad de talles"],
           disponible: true
