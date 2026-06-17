@@ -4,23 +4,24 @@ import { ShieldCheck, Video, Users, Building2 } from 'lucide-react';
 export default function SobreNosotros() {
   return (
     <section id="nosotros" className="bg-stone-950 py-10 px-4 border-t border-stone-900">
-      <div className="max-w-6xl mx-auto grid gap-15 lg:grid-cols-2 items-center text-left">
+      <div className="max-w-6xl mx-auto grid gap-12 lg:grid-cols-2 items-center text-left">
         
-        {/* BLOQUE IZQUIERDO: FOTO DEL EQUIPO / GALPÓN */}
-        <div className="relative aspect-square max-h-[480px] bg-stone-900 rounded-xl border border-stone-850 overflow-hidden group shadow-2xl">
+        {/* 🛠️ BLOQUE IZQUIERDO: AJUSTADO Y CENTRADO PARA TABLETS */}
+        <div className="relative aspect-square w-full max-w-[480px] bg-stone-900 rounded-xl border border-stone-850 overflow-hidden group shadow-2xl mx-auto">
           <img 
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=600&auto=format&fit=crop" 
+            src="public/familiaAdrian.jpeg" 
             alt="Adrián y equipo en el galpón de Once" 
-            className="w-full h-full object-cover filter contrast-110 grayscale group-hover:grayscale-0 transition-all duration-700"
+            /* 💡 Sumamos 'object-cover' y 'object-center' para que la foto llene el cuadrado sin deformarse ni tirarse a un costado */
+            className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
           />
           {/* Identificador flotante */}
-          <div className="absolute bottom-4 left-4 bg-stone-950/90 backdrop-blur-md border border-stone-800 p-4 rounded-lg max-w-xs">
+          <div className="absolute bottom-4 left-4 bg-stone-950/90 backdrop-blur-md border border-stone-800 p-4 rounded-lg max-w-xs z-10">
             <p className="text-stone-100 font-black text-xs uppercase tracking-wider">Adrián y Familia</p>
             <p className="text-[#E05C4F] font-mono text-[9px] uppercase tracking-widest mt-1">Fundadores de Roxsport</p>
           </div>
         </div>
 
-        {/* BLOQUE DERECHO: TEXTO CORPORATIVO (Procesado de los audios) */}
+        {/* BLOQUE DERECHO: TEXTO CORPORATIVO (Queda igual) */}
         <div className="space-y-6">
           <span className="text-[#E05C4F] font-mono text-xs font-black uppercase tracking-[0.2em] block">
             // DETRÁS DE LA MARCA

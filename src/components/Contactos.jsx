@@ -67,7 +67,7 @@ export default function Contacto() {
               href="https://wa.me/54XXXXXXXXXX?text=Hola%20Adrian,%20quiero%20hacerles%20una%20consulta%20por%20un%20fardo."
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full bg-[#E05C4F] hover:bg-[#c94f43] text-stone-950 font-black text-xs uppercase tracking-widest py-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg active:scale-99"
+              className="w-full bg-[#E05C4F] hover:bg-[#c94f43] text-stone-950 font-black text-xs uppercase tracking-widest py-4 rounded-xl flex items-center justify-center md:gap-1 lg:gap-2 transition-all shadow-lg active:scale-99"
             >
               <MessageCircle size={16} className="stroke-[2.5]" />
               Contactar con Roxsport por WhatsApp

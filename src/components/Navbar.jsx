@@ -11,6 +11,15 @@ export default function Navbar() {
 
   const esActivo = (ruta) => location.pathname === ruta;
   
+
+  const irArriba = (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   React.useEffect(() => {
   if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -31,7 +40,7 @@ export default function Navbar() {
           
           {/* LOGO REDIRIGE A LA HOME */}
           <div className="flex-shrink-0 h-20 sm:h-34 w-28 sm:w-48 md:w-32 md:h-22 overflow-hidden group">
-            <Link to="/" className="block w-full h-full">
+            <Link to="/" className="block w-full h-full" onClick={irArriba}>
               <img src={logo} alt="Roxsport Oficial" className="w-full h-full object-cover" />
             </Link>
           </div>
@@ -41,7 +50,7 @@ export default function Navbar() {
             <Link to="/" className="text-xs font-bold uppercase tracking-[0.2em] text-stone-400 hover:text-[#E05C4F] transition-colors">
               Inicio
             </Link>
-            
+             
             <Link to="/galeria" className="text-xs font-bold uppercase tracking-[0.2em] text-stone-400 hover:text-[#E05C4F] transition-colors">
               Galería
             </Link>
@@ -57,8 +66,10 @@ export default function Navbar() {
 
           {/* Botón WhatsApp */}
           <div className="hidden md:block">
-            <a href="https://wa.me/54XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="border border-[#E05C4F] text-stone-200 hover:bg-[#E05C4F] hover:text-stone-950 text-xs font-black uppercase tracking-widest px-5 py-3 rounded transition-all">
-              Consultar
+            <a href="https://wa.me/54XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#E05C4F] text-stone-200 hover:bg-[#E05C4F] hover:text-stone-950 text-xs font-black uppercase tracking-widest px-6 py-3 rounded transition-all">
+              
+              <MessageCircle size={12} className="stroke-[3.5]" />
+              WhatsApp
             </a>
           </div>
 
@@ -84,7 +95,7 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-[#191919] border-b border-stone-900">
           <div className="px-3 pt-2 pb-6 space-y-2 text-left">
-            
+              
             <Link
               to="/"
               onClick={manejarCierre}

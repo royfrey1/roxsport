@@ -10,3 +10,7 @@
     animation: marquee 60s linear infinite;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

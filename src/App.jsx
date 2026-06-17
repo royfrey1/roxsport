@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import GaleriaMultimedia from './components/Galeria';
 import SobreNosotros from './components/Sobrenosotros';
 import Contacto from './components/Contactos';
+import GuiaInicios from './components/Tips';
+import BotonVolverArriba from './components/UpTop';
 
 // Creamos un componente para la Landing Page Principal (Limpia y rápida)
 function Home() {
@@ -15,6 +17,7 @@ function Home() {
     <>
       <Hero />
       <CatalogoFardos />
+      <GuiaInicios />
       <ComoFunciona />
     </>
   );
@@ -35,6 +38,9 @@ export default function App() {
 
       {/* El Footer se mantiene abajo en ambas páginas */}
       <Footer /> 
+
+      {/* Botón para volver arriba */}
+      <BotonVolverArriba />
     </div>
   );
 }

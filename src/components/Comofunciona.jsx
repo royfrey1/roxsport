@@ -30,7 +30,7 @@ export default function ComoFunciona() {
   ];
 
   return (
-    <section id="nosotros" className="bg-stone-950 py-24 px-4 relative overflow-hidden">
+    <section id="nosotros" className="scroll-mt-24 bg-stone-950 py-24 px-4 relative overflow-hidden">
       
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#E05C4F] to-transparent"></div>
 
@@ -40,7 +40,7 @@ export default function ComoFunciona() {
           PROCESO SIMPLE
         </span>
         <h3 className="text-4xl sm:text-5xl font-black text-stone-100 uppercase tracking-tighter mb-20">
-          CÓMO <span className="text-[#E05C4F] font-extrabold">FUNCIONA</span>
+          CÓMO <span className="text-[#E05C4F] font-extrabold">TRABAJAMOS</span>
         </h3>
 
         {/* CONTENEDOR EN RECT CON GRID */}
