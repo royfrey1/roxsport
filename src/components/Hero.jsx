@@ -110,7 +110,7 @@ export default function Hero() {
                 loop
                 muted={isMuted}
                 playsInline
-                className="w-full h-full object-cover cursor-pointer"
+                className="w-full h-full object-contain cursor-pointer"
                 onClick={togglePlay}
               >
                 <source src="/videos/apertura-fardos.mp4" type="video/mp4" />
