@@ -9,7 +9,7 @@ export default function SobreNosotros() {
         {/* 🛠️ BLOQUE IZQUIERDO: AJUSTADO Y CENTRADO PARA TABLETS */}
         <div className="relative aspect-square w-full max-w-[480px] bg-stone-900 rounded-xl border border-stone-850 overflow-hidden group shadow-2xl mx-auto">
           <img 
-            src="/familiaAdrian.jpeg" 
+            src="/familiaAdrian.jpg" 
             alt="Adrián y equipo en el galpón de Once" 
             /* 💡 Sumamos 'object-cover' y 'object-center' para que la foto llene el cuadrado sin deformarse ni tirarse a un costado */
             className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
@@ -31,7 +31,7 @@ export default function SobreNosotros() {
             <span className="text-[#E05C4F] font-extrabold">DANDO LA CARA</span>
           </h3>
           <p className="text-stone-400 text-sm font-medium leading-relaxed">
-            Sabemos que comprar fardos al por mayor a la distancia genera desconfianza. Por eso, en **Roxsport** elegimos no escondernos detrás de un catálogo automático. Nos encontrás de lunes a sábados en nuestro galpón de Once, armando y despachando cada lote nosotros mismos. 
+            Sabemos que comprar fardos al por mayor a la distancia genera desconfianza. Por eso, en Roxsport elegimos no escondernos detrás de un catálogo automático. Nos encontrás de lunes a sábados en nuestro local físico ubicado en Avenida del Libertador 325, armando y despachando cada pedido nosotros mismos. 
           </p>
           <p className="text-stone-400 text-sm font-medium leading-relaxed">
             Nuestra prioridad es que tu local o showroom sea rentable. Seleccionamos la indumentaria de manera exhaustiva para asegurar que cada prenda valga lo que pagás, ofreciendo transparencia absoluta de punta a punta.

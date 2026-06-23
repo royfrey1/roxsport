@@ -66,7 +66,7 @@ export default function Navbar() {
 
           {/* Botón WhatsApp */}
           <div className="hidden md:block">
-            <a href="https://wa.me/54XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#E05C4F] text-stone-200 hover:bg-[#E05C4F] hover:text-stone-950 text-xs font-black uppercase tracking-widest px-6 py-3 rounded transition-all">
+            <a href={`https://wa.me/541122966242?text=Hola%20que%20tal,%20vengo%20de%20la%20pagina%20web,%20me%20interesa%20mas%20informacion%20sobre%20fardos%20disponibles`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-[#E05C4F] text-stone-200 hover:bg-[#E05C4F] hover:text-stone-950 text-xs font-black uppercase tracking-widest px-6 py-3 rounded transition-all">
               
               <MessageCircle size={12} className="stroke-[3.5]" />
               WhatsApp

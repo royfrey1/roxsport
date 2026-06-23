@@ -81,15 +81,15 @@ export default function Footer() {
           <ul className="space-y-3.5 text-xs font-medium tracking-wide">
             <li className="flex items-start gap-2.5">
               <MapPin size={15} className="text-stone-600 shrink-0 mt-0.5" />
-              <span>Av. Pueyrredón 300, Moreno, CABA</span>
+              <span>Avenida del Libertador 325, Moreno Centro</span>
             </li>
             <li className="flex items-center gap-2.5">
               <Phone size={15} className="text-stone-600 shrink-0" />
-              <span>+54 11 0000-0000</span>
+              <span>+54 11 2296-6242 <br/>+54 11-6142-8223 <br/>+54 11-2168-6395</span>
             </li>
             <li className="flex items-center gap-2.5">
               <Mail size={15} className="text-stone-600 shrink-0" />
-              <span className="hover:text-[#E05C4F] transition-colors">info@roxsport.com.ar</span>
+              <span className="hover:text-[#E05C4F] transition-colors">roxsportmoreno@gmail.com</span>
             </li>
           </ul>
         </div>
@@ -100,11 +100,7 @@ export default function Footer() {
           <ul className="space-y-2.5 text-xs font-medium tracking-wide mb-5">
             <li className="flex items-center gap-2">
               <Clock size={14} className="text-stone-600" />
-              <span>Lun - Vie: 9:00 - 18:00</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <Clock size={14} className="text-stone-600" />
-              <span>Sáb: 9:00 - 14:00</span>
+              <span>Lun - Sab: 10:00hs - 18:00hs <br/> HORARIO DE CORRIDO </span>
             </li>
           </ul>
           <a 
@@ -123,7 +119,7 @@ export default function Footer() {
       {/* 3. BARRA DE CIERRE LEGAL */}
       <div className="border-t border-stone-800 bg-stone-950 px-6 py-6 text-[10px] font-mono tracking-wider text-stone-400">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
-          <p>© {new Date().getFullYear()} ROXSPORT MAYORISTA – BUENOS AIRES, ARGENTINA</p>
+          <p>© {new Date().getFullYear()} ROXSPORT MAYORISTA – MORENO CENTRO, BUENOS AIRES, ARGENTINA</p>
           <p className="mt-2 md:mt-0 italic">
             Desarrollado por 
             <a 

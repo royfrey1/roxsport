@@ -23,7 +23,7 @@ export default function Contacto() {
         </div>
 
         {/* GRILLA PRINCIPAL */}
-        <div className="grid gap-8 lg:grid-cols-5 text-left items-stretch">
+        <div className="grid gap-8 lg:grid-cols-5 text-left items-stretch border-b border-[#E05C4F] pb-8 mb-16">
           
           {/* COLUMNA DE DATOS DE CONTACTO (Ocupa 2 de 5 columnas) */}
           <div className="lg:col-span-2 flex flex-col justify-between gap-4">
@@ -35,7 +35,7 @@ export default function Contacto() {
                 </div>
                 <div>
                   <h4 className="text-stone-400 font-mono text-[10px] uppercase tracking-wider">Local Oficial</h4>
-                  <p className="text-stone-200 text-sm font-bold mt-0.5">Av. del Libertador 329, Moreno Centro, Buenos Aires</p>
+                  <p className="text-stone-200 text-sm font-bold mt-0.5">Ubicado en Avenida del Libertador 325, Moreno Centro, Buenos Aires</p>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ export default function Contacto() {
                 </div>
                 <div>
                   <h4 className="text-stone-400 font-mono text-[10px] uppercase tracking-wider">Horarios de Atención</h4>
-                  <p className="text-stone-200 text-sm font-bold mt-0.5">Lunes a Sábado: 10:00 a 18:00</p>
+                  <p className="text-stone-200 text-sm font-bold mt-0.5">Lunes a Sábado: 10:00 a 18:00 DE CORRIDO</p>
                   <p className="text-stone-400 text-xs mt-0.5">Domingos: Cerrado</p>
                 </div>
               </div>
@@ -55,8 +55,8 @@ export default function Contacto() {
                   <Phone size={18} />
                 </div>
                 <div>
-                  <h4 className="text-stone-400 font-mono text-[10px] uppercase tracking-wider">Teléfono de Contacto</h4>
-                  <p className="text-stone-200 text-sm font-bold mt-0.5">+54 11 6142 8223</p>
+                  <h4 className="text-stone-400 font-mono text-[10px] uppercase tracking-wider">Teléfonos de Contacto</h4>
+                  <p className="text-stone-200 text-sm font-bold mt-0.5">+54 11-2296-6242<br/>+54 11-6142-8223<br/>+54 11-2168-6395<br/> </p>
                 </div>
               </div>
 
@@ -64,7 +64,7 @@ export default function Contacto() {
 
             {/* BOTÓN WHATSAPP GRANDE */}
             <a 
-              href="https://wa.me/54XXXXXXXXXX?text=Hola%20Adrian,%20quiero%20hacerles%20una%20consulta%20por%20un%20fardo."
+              href="https://wa.me/541122966242?text=Hola%20Adrian,%20quiero%20hacerles%20una%20consulta%20por%20un%20fardo."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#E05C4F] hover:bg-[#c94f43] text-stone-950 font-black text-xs uppercase tracking-widest py-4 rounded-xl flex items-center justify-center md:gap-1 lg:gap-2 transition-all shadow-lg active:scale-99"
@@ -96,6 +96,75 @@ export default function Contacto() {
 
         </div>
 
+        {/* BLOQUE DE CÓDIGOS QR EN LA SECCIÓN DE CONTACTO WITH BOTONES */}
+        <div className="bg-stone-900/40 p-6 border border-stone-900 rounded-xl space-y-6 mt-8">
+            <div>
+              <span className="text-[#E05C4F] font-mono text-[15px] font-black uppercase tracking-widest block">// ESCANEÁ O HACÉ CLIC</span>
+              <h4 className="text-2xl font-black text-stone-100 uppercase tracking-tighter mt-1">NUESTRAS COMUNIDADES</h4>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              
+              {/* QR INSTAGRAM */}
+              <div className="bg-stone-950 p-4 border border-stone-850 rounded-lg text-center flex flex-col items-center justify-between group">
+                <div className="w-full flex flex-col items-center">
+                  <div className="w-full max-w-[180px] aspect-square bg-stone-900 rounded border border-stone-800 overflow-hidden flex items-center justify-center p-2 mb-3">
+                    <img src="/QR/INSTA.jpg" alt="QR Instagram" className="w-full h-full object-contain filter invert opacity-80 group-hover:opacity-100 transition-opacity" />
+                  </div>
+                  <span className="text-stone-300 font-mono text-xs font-black uppercase tracking-wider mb-4">INSTAGRAM</span>
+                </div>
+                {/* Botón de enlace directo */}
+                <a 
+                  href="https://www.instagram.com/roxsport.rox/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full py-2 px-3 text-[11px] font-mono font-black uppercase tracking-wider text-stone-200 border border-[#E05C4F]/40 bg-[#E05C4F]/10 hover:bg-[#E05C4F] hover:text-stone-950 hover:border-[#E05C4F] rounded transition-all duration-300"
+                >
+                  Seguinos en Instagram
+                </a>
+              </div>
+
+              {/* QR TIKTOK */}
+              <div className="bg-stone-950 p-4 border border-stone-850 rounded-lg text-center flex flex-col items-center justify-between group">
+                <div className="w-full flex flex-col items-center">
+                  <div className="w-full max-w-[180px] aspect-square bg-stone-900 rounded border border-stone-800 overflow-hidden flex items-center justify-center p-2 mb-3">
+                    <img src="/QR/TIKTOK.jpg" alt="QR TikTok" className="w-full h-full object-contain filter invert opacity-80 group-hover:opacity-100 transition-opacity" />
+                  </div>
+                  <span className="text-stone-300 font-mono text-xs font-black uppercase tracking-wider mb-4">TIKTOK</span>
+                </div>
+                {/* Botón de enlace directo */}
+                <a 
+                  href="https://www.tiktok.com/@adrianbrunobossini?_r=1&_t=ZS-97S7xOUunvL" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full py-2 px-3 text-[11px] font-mono font-black uppercase tracking-wider text-stone-200 border border-[#E05C4F]/40 bg-[#E05C4F]/10 hover:bg-[#E05C4F] hover:text-stone-950 hover:border-[#E05C4F] rounded transition-all duration-300"
+                >
+                  Seguinos en TikTok
+                </a>
+              </div>
+
+              {/* QR FACEBOOK */}
+              <div className="bg-stone-950 p-4 border border-stone-850 rounded-lg text-center flex flex-col items-center justify-between group">
+                <div className="w-full flex flex-col items-center">
+                  {/* Dejamos el contenedor del QR listo para cuando te lo pase, pero el usuario ya puede usar el botón */}
+                  <div className="w-full max-w-[180px] aspect-square bg-stone-900 rounded border border-stone-800 overflow-hidden flex items-center justify-center p-2 mb-3">
+                    <img src="/QR/FACEBOOK.jpg" alt="QR Facebook" className="w-full h-full object-contain filter invert opacity-80 group-hover:opacity-100 transition-opacity" />
+                  </div>
+                  <span className="text-stone-300 font-mono text-xs font-black uppercase tracking-wider mb-4">FACEBOOK</span>
+                </div>
+                {/* Botón de enlace directo (Salva las papas mientras el QR no ande) */}
+                <a 
+                  href="https://www.facebook.com/roxsport.roxsport" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full py-2 px-3 text-[11px] font-mono font-black uppercase tracking-wider text-stone-200 border border-[#E05C4F]/40 bg-[#E05C4F]/10 hover:bg-[#E05C4F] hover:text-stone-950 hover:border-[#E05C4F] rounded transition-all duration-300"
+                >
+                  Seguinos en Facebook
+                </a>
+              </div>
+
+            </div>
+        </div>
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ export default function ComoFunciona() {
     {
       id: "02",
       titulo: "Elegí tu Fardo",
-      descripcion: "Seleccioná entre nuestras categorías disponibles: premium, verano, invierno, deportivo o ropa urbana por unidad. Todos lotes filtrados.",
+      descripcion: "Seleccioná entre nuestras categorías disponibles: premium, verano, invierno, deportivo o ropa urbana por unidad. Todos los fardos filtrados.",
       icono: Box
     },
     {

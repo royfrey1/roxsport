@@ -152,12 +152,12 @@ export default function GaleriaMultimedia() {
                 <div className="pt-4 border-t border-stone-900 flex items-center justify-between" onClick={(e) => e.stopPropagation()}>
                   <span className="text-stone-600 font-mono text-[10px] uppercase font-bold tracking-wider">// {item.tipo.toUpperCase()}</span>
                   <a 
-                    href={`https://wa.me/54XXXXXXXXXX?text=Hola%20Adrian,%20te%20consulto%20por%20el%20lote%20"${encodeURIComponent(item.titulo)}"%20de%20la%20galeria.`} 
+                    href={`https://wa.me/541122966242?text=Hola%20Buenas,%20te%20consulto%20por%20el%20lote%20"${encodeURIComponent(item.titulo)}"%20de%20la%20galeria%20de%20la%20pagina%20web.`} 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="inline-flex items-center gap-1.5 text-stone-400 hover:text-[#E05C4F] text-xs font-bold uppercase tracking-wider transition-colors"
                   >
-                    <MessageCircle size={13} /> Consultar bulto
+                    <MessageCircle size={13} /> Consultar Fardo
                   </a>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function GaleriaMultimedia() {
               </div>
 
               <div className="p-5 bg-stone-950 text-left overflow-y-auto flex-grow">
-                <span className="text-[#E05C4F] font-mono text-[9px] uppercase tracking-widest font-black">
+                <span className="text-[#E05C4F] font-mono text-[15px] uppercase tracking-widest font-black">
                   {itemSeleccionado.categoria}
                 </span>
                 <h4 className="text-lg font-black text-stone-100 uppercase tracking-tight mt-1">
@@ -216,7 +216,7 @@ export default function GaleriaMultimedia() {
 
                 <div className="mt-5 pt-4 border-t border-stone-900 flex justify-end">
                   <a 
-                    href={`https://wa.me/54XXXXXXXXXX?text=Hola%20Adrian,%20te%20consulto%20por%20el%20bulto%20"${encodeURIComponent(itemSeleccionado.titulo)}"%20de%20la%20galeria.`}
+                    href={`https://wa.me/541122966242?text=Hola%20buenas,%20te%20consulto%20por%20el%20bulto%20"${encodeURIComponent(itemSeleccionado.titulo)}"%20de%20la%20galeria%20de%20la%20pagina%20web.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#E05C4F] hover:bg-[#c94f43] text-stone-950 font-black text-[10px] uppercase tracking-widest px-4 py-2.5 rounded-lg flex items-center gap-1.5 transition-colors"
