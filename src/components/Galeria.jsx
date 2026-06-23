@@ -76,7 +76,7 @@ export default function GaleriaMultimedia() {
             Galería del <span className="text-[#E05C4F] font-extrabold">Depósito</span>
           </h3>
           <p className="text-stone-400 text-xs sm:text-sm max-w-xl mx-auto mt-4 leading-relaxed">
-            Revisá el material que grabamos directo en Once. Todo el stock es verificado minuciosamente antes del despacho mayorista.
+            Revisá el material que grabamos directo en nuestro local de Moreno. Todo el stock es verificado minuciosamente antes del despacho mayorista.
           </p>
         </div>
 
