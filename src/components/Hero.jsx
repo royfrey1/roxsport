@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { ArrowDown, Layers, Play, Pause, Volume2, VolumeX, Maximize2 } from 'lucide-react';
+import { ArrowDown, Layers, Play, Pause, Volume2, VolumeX, MessageCircle,Maximize2 } from 'lucide-react';
 
 export default function Hero() {
   const videoRef = useRef(null);
@@ -84,6 +84,13 @@ export default function Hero() {
 
             {/* ACCIONES */}
             <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
+              <a  href={`https://wa.me/541122966242?text=Hola%20que%20tal,%20vengo%20de%20la%20pagina%20web,%20me%20interesa%20mas%20informacion%20sobre%20fardos%20disponibles`} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full sm:w-auto flex items-center gap-2 border border-[#E05C4F] text-stone-200 hover:bg-[#E05C4F] hover:text-stone-950 text-xs font-black uppercase tracking-widest px-6 py-3 rounded transition-all text-center item-center justify-center gap-2">
+                <MessageCircle size={12} className="stroke-[3.5]" />
+                WhatsApp Directo
+              </a>
               <a 
                 href="#catalogo" 
                 className="w-full sm:w-auto bg-[#E05C4F]/80 hover:bg-[#E05C4F] text-stone-950 font-black text-xs uppercase tracking-widest px-8 py-4 rounded border-b-4 border-[#E32714] active:border-b-0 active:mt-1 transition-all text-center"
